@@ -37,8 +37,6 @@ print()
 # res = input("답정너~~~~~~~")
 # print("입력한 답은 " + res)
 
-
-
 a = "10 11 a b 14".split(" ")
 print(type(a), a,  sep="\n")
 
