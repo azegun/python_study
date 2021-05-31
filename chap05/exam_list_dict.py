@@ -11,10 +11,6 @@ for key in dict_b:
 
 
 
-
-
-
-
 for i in list_a:
     print()
     for j in i:
