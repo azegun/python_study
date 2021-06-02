@@ -13,9 +13,9 @@ os.remove("new.txt")
 std_list = [["1", "김상건", 90, 80, 70],
             ["2", "이나연", 80, 80, 60]]
 
-if not os.path.exists("std_list.txt"):
+if not os.path.exists("../std_list.txt"):
     # if os.path.isfile("std_list.txt"):
-     with open("std_list.txt", "w", encoding="utf-8") as f:
+     with open("../std_list.txt", "w", encoding="utf-8") as f:
          for std in std_list:
             format_str = "{}, {}, {}, {}, {}\n".format(std[0], std[1], std[2], std[3], std[4])
             print(std)
@@ -24,7 +24,7 @@ if not os.path.exists("std_list.txt"):
 
 std_list2 = []
 
-with open("std_list.txt", "r", encoding="utf-8") as f:
+with open("../std_list.txt", "r", encoding="utf-8") as f:
     for line in f:
         std = line.strip().split(",")
         print("std : ", std, type(std))
