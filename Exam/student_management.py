@@ -40,7 +40,7 @@ def show_std_list():
 #
 def add_std_info():
     temp = [str(len(std_list)+1)]
-    temp.extend(get_std_info('성명,국어,영어,수학을 입력하세요 es)최영민 90 90 90'))
+    temp.extend(get_std_info('성명,국어,영어,수학을 입력하세요 es)최 영민 90 90 90'))
     if len(temp) == 5:
         std_list.append(temp)
     else:
